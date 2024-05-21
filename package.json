@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "vite"
+    "start": "nodemon script.js"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
@@ -8,12 +8,12 @@
     "tailwindcss": "^3.3.5"
   },
   "dependencies": {
-    "vite": "^4.5.0"
+    "serialport": "^9.2.8"
   },
   "name": "smartparking",
   "version": "1.0.0",
   "description": "\"project\"",
-  "main": "tailwind.config.js",
+  "main": "script.js",
   "author": "Saumya Singh",
   "license": "ISC"
 }
